@@ -188,6 +188,24 @@ h2 {
   border-bottom: 1px dashed var(--border);
 }
 
+.meta-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.35rem;
+}
+
+.meta-tags span {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.28rem 0.6rem;
+  background: #eef5fb;
+  border: 1px solid var(--border);
+  font-weight: 600;
+  color: var(--text);
+}
+
 .meta-list li:last-child {
   border-bottom: 0;
 }
